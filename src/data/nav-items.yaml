@@ -41,6 +41,10 @@
       path: /photography/overview
     - title: Tips and techniques
       path: /photography/tips-and-techniques
+- title: Data Vis
+  pages:
+    - title: Design
+      path: /data-vis/design/overview
 - title: Layout
   pages:
     - title: Overview

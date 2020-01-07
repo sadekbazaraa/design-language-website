@@ -1,0 +1,172 @@
+---
+title: Design
+description: IBM data visualization manifests creativity while focused on the functional and effective representation of data. This distinction considers multiple elements, components and features. Learn about the different design aspects that contribute to great data visualization, and best practices to properly deliver them.
+tabs: [Overview, Usage]
+---
+
+<PageDescription>
+
+IBM data visualization manifests creativity while focused on the functional and effective representation of data. This distinction considers multiple elements, components and features. Learn about the different design aspects that contribute to great data visualization, and best practices to properly deliver them.
+
+</PageDescription>
+
+<AnchorLinks>
+  <AnchorLink>Chart anatomy</AnchorLink>
+  <AnchorLink>Color</AnchorLink>
+  <AnchorLink>Interaction</AnchorLink>
+  <AnchorLink>Motion</AnchorLink>
+</AnchorLinks>
+
+## Chart anatomy
+
+<Row>
+<Column colMd={5} colLg={8}>
+
+![Design Chart Anatomy](/images/Design_ChartAnatomy.jpg)
+
+</Column>
+</Row>
+
+#### Title, labels and legend
+
+Best practice gives charts an explanatory title, descriptive labels and a clear, instructive legend. Good titles reflect the main insight the data reveals. Helpful legends explain the relationship of each property to its corresponding data. Legends convey meaning through color, shape and size.  Directly label the chart to avoid long legends, and conversely, employ legends to avoid long labels. Use concise text that is easy to understand.
+
+<Row>
+<Column colMd={3} colLg={4}>
+![consice-title]()
+
+  <Caption>
+    Concise title.
+  </Caption>
+</Column>
+
+<Column colMd={3} colLg={4}>
+![descriptive title]()
+  <Caption>
+    Long and too descriptive title.
+  </Caption>
+</Column>
+</Row>
+
+#### Axes, ticks and grid
+
+Axes, ticks and grid convey the proportions and scale of the data, the indicators involved and their units of measure. To improve comprehension, avoid filling up the chart frame with too many elements.
+
+<Row>
+<Column colMd={3} colLg={4}>
+![](/images/Design_ChartAnatomy.jpg)
+
+  <Caption>
+    Correct density of grid lines and labels.
+  </Caption>
+</Column>
+
+<Column colMd={3} colLg={4}>
+![](/images/Design_ChartAnatomy.jpg)
+  <Caption>
+    When there are too many elements it's hard to read the chart
+  </Caption>
+</Column>
+</Row>
+
+## Color
+
+The IBM color palette unifies our digital brand. Color is important for a cohesive look, but it’s impact is not restricted to appearance. Color perception varies culturally and psychologically. Color choices work to decrease recognition times, convey meaning and helps users make faster, more informed decisions. When designing IBM data visualization experiences, maximize accessibility and harmony while keeping an eye on cultural and psychological contexts.
+
+<Row className="resource-card-group">
+<Column colMd={4} colLg={4} noGutterSm>
+<ResourceCard
+subTitle="Data visualization palette"
+href=""
+actionIcon="launch"
+>
+
+![Sketch Icon](../../images/SketchIcon.svg)
+
+</ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="IBM color palette"
+      href=""
+      actionIcon="launch"
+      >
+
+![Bee Icon](../../images/bee.svg)
+
+  </ResourceCard>
+</Column>
+</Row>
+
+#### Emphasize the story you want to tell
+
+As one of the most powerful sensory cues, color is a highly influential visual property. Create a sharp contrast between elements to gain the user’s attention on the focus of the chart, but be essential—every color should have a reason for being there. Even the absence of color delivers information. Shades of grey ensure visible data points while not distracting from the key insights. Connecting specific colors to certain key metrics can help your audience recognize frequent indicators easily.
+
+<Row>
+<Column colMd={5} colLg={8}>
+
+![Conversion rate]()
+
+</Column>
+</Row>
+
+#### Improve readability and hierarchy of elements
+
+Readability requires contrast. Caring about contrast means caring that a user can read your chart on their screen, even in low light and even if you use pale shades of colors like light grey. Well-chosen colors reduce the time for users to gain insights and helps them understand the message sooner. Categorical palettes maximize contrast between data that do not have an inherent relation. Sequential palettes can show relationships, or hierarchies, between data. Reinforce color meaning with other strong visual features, like shape, line or pattern, to make the focal point immediately recognizable.
+
+<Row>
+<Column colMd={5} colLg={8}>
+
+![Monthly visitors]()
+
+</Column>
+</Row>
+
+#### Represent quantity
+
+By illuminating a chart through sequential or diverging palettes, you add depth and dimension to specific data, drawing attention to the quantitative aspect of the story.
+
+<Row>
+<Column colMd={5} colLg={8}>
+
+![Quality]()
+
+</Column>
+</Row>
+
+#### Texture and markers
+
+Visualizations can be rich and “colorful” even in situations when color can’t be used. At IBM, we employ different shades of black, together with patterns and markers, as a valid substitute to color. Patterns are not just a decoration but become a way to convey information. Use lines with different weights and play with the density of elements.
+
+<Row>
+<Column colMd={5} colLg={8}>
+
+![Quality]()
+
+</Column>
+</Row>
+
+## Interaction
+
+At IBM, we are curious. When we think something should be explored, we follow that impulse to see where it leads. We want our data visualization users to explore problems from multiple perspectives with interaction patterns like searching, filtering or highlighting.  Interactivity fosters data exploration and improves user understanding through recognition, thus shortening the learning curve. A visualization achieves maximum value when it allows users to find their own exploration path.
+
+
+#### Overview first, zoom and filter, then details on demand
+
+We want IBM’s data vis to present crucial points clearly and prominently for quick and easy reading; providing clear insights while still giving the user the option to get more information on demand, at any time. Don’t hide important information behind an interactive behavior. Interaction should support analytical reasoning and user comprehension by revealing context, insights, associations and causality.
+
+<Row>
+<Column colMd={5} colLg={8}>
+
+![Quality]()
+
+</Column>
+</Row>
+
+## Motion
+
+Motion is a powerful tool in building communication during the user experience. Use motion to communicate relationships between elements, or to make changes in the dataset or on the environment explicit and unambiguous. Consider entrance and exit motion to enhance the visual hierarchy of elements, orientation of axes and the data displayed. Be careful not to communicate contradicting information with different transitions.
+
+
+
+
